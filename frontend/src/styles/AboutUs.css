@@ -1,0 +1,79 @@
+.aboutus-container {
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .appointment-btn {
+    background: transparent;
+    border: 1px solid white;
+    padding: 8px 9px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    background: url("https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvbWUlMjBkZWNvcnxlbnwwfHwwfHx8MA%3D%3D") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    max-width: 600px;
+  }
+  
+  .more-info {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
